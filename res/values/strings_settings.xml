@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="title_activity_dessert_settings">Dessert Case Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="enable_intro">Android&#174; KitKat&#174; Intro</string>
+    <string name="enable_interactivity">Mosaic interactivity</string>
+    <string name="enable_overlay">Graphical overlay</string>
+    <string name="enabled_by_default">Enabled by default</string>
+    <string name="enable_animation">Enable Animation</string>
+    <string name="category_ui">User Interface</string>
+    <string name="animation_duration">Animation duration (in milliseconds)</string>
+    <string name="animation_duration_summary">Default is 500(ms)</string>
+    <string name="animation_start_delay">Animation start delay (in milliseconds)</string>
+    <string name="animation_start_delay_summary">Default is 5000(ms)</string>
+    <string name="animation_delay">Delay between animations (in milliseconds)</string>
+    <string name="animation_delay_summary">Default is 2000(ms)</string>
+    <string name="hue_maximum">Random hue maximum</string>
+    <string name="hue_maximum_summary">Default is 12</string>
+</resources>

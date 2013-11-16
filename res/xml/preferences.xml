@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="User Interface"
+        android:key="preferences_ui" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:summary="@string/enabled_by_default"
+            android:key="enable_intro"
+            android:title="@string/enable_intro" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:summary="@string/enabled_by_default"
+            android:key="enable_animation"
+            android:title="@string/enable_animation" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:summary="@string/enabled_by_default"
+            android:key="enable_animation"
+            android:title="@string/enable_animation" />
+         <SwitchPreference
+            android:defaultValue="true"
+            android:summary="@string/enabled_by_default"
+            android:key="enable_interactivity"
+            android:title="@string/enable_interactivity" />
+         <SwitchPreference
+             android:defaultValue="true"
+             android:summary="@string/enabled_by_default"
+             android:key="enable_overlay"
+             android:title="@string/enable_overlay" />
+        <EditTextPreference
+            android:title="@string/animation_duration"
+            android:summary="@string/animation_duration_summary"
+            android:defaultValue="500"
+            android:inputType="number"
+            android:key="animation_duration"/>
+        <EditTextPreference
+            android:title="@string/animation_start_delay"
+            android:summary="@string/animation_start_delay_summary"
+            android:defaultValue="5000"
+            android:inputType="number"
+            android:key="animation_start_delay"/>
+         <EditTextPreference
+            android:title="@string/animation_delay"
+            android:summary="@string/animation_delay_summary"
+            android:defaultValue="2000"
+            android:inputType="number"
+            android:key="animation_delay"/>
+         <com.thoriumLabs.android.dessertcase.NumberPickerDialogPreference
+            android:title="@string/hue_maximum"
+            android:summary="@string/hue_maximum_summary"
+            android:max="255"
+            android:defaultValue="12"
+            android:key="hue_maximum"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
